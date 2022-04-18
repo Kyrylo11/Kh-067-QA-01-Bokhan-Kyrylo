@@ -6,11 +6,11 @@ public class Task_3 {
         double n1 = 0, n2 = 0, res = 0;
         char operation = 0;
         System.out.println("Input the first number:");
-        n1 = sc.nextInt();
+        n1 = sc.nextDouble();
         System.out.println("Input the operation(+, -, *, /, %):");
         operation = sc.next().charAt(0);
         System.out.println("Input the second number:");
-        n2 = sc.nextInt();
+        n2 = sc.nextDouble();
         if (operation == '+') {
             res = n1 + n2;
         } else if (operation == '-') {
