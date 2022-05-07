@@ -7,7 +7,7 @@ public class Task4 {
         String str = sc.nextLine();
         String[] array = str.split(", ");
         if (array.length >= 3) {
-            for (; ; ) {
+            do {
                 char operation = 0;
                 System.out.println("Choose a filter:");
                 System.out.println("1 - maximum length\n2 - start with\n3 - end with\n4 - contains\n0 - exit");
@@ -59,7 +59,7 @@ public class Task4 {
                         System.out.println("Error. Unidentified operation.");
                         System.exit(1);
                 }
-            }
+            }while(array.length != 0);
         } else {
             System.out.println("Not enough words.");
             System.exit(1);
