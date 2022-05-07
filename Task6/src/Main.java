@@ -8,17 +8,17 @@ public class Main {
         Tiger t1 = new Tiger(1, "Nicko");
         Ram r2 = new Ram();
         Tiger t2 = new Tiger();
-        r.family();
+        r.getGenus();
         r.voice();
-        t.family();
+        t.getGenus();
         t.voice();
-        r1.family();
+        r1.getGenus();
         r1.voice();
-        t1.family();
+        t1.getGenus();
         t1.voice();
-        r2.family();
+        r2.getGenus();
         r2.voice();
-        t2.family();
+        t2.getGenus();
         t2.voice();
     }
 }

@@ -4,7 +4,7 @@ public abstract class Animal {
     private int age;
     private String name;
 
-    public abstract void family();
+    public abstract void getGenus();
 
     public int getAge() {
         return age;

@@ -19,7 +19,7 @@ public class Cats extends Animal {
         this.numClaws = numClaws;
     }
 
-    public void family() {
+    public void getGenus() {
         System.out.println("From the genus cat. They has claws and fangs.");
     }
 

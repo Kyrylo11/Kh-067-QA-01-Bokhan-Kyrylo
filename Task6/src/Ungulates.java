@@ -19,7 +19,7 @@ public class Ungulates extends Animal {
         this.numHorns = numHorns;
     }
 
-    public void family() {
+    public void getGenus() {
         System.out.println("From the genus ungulates. They have horns and hooves.");
     }
 
