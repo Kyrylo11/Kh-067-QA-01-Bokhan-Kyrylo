@@ -1,4 +1,4 @@
-public class Ungulates extends Animal implements hasColor, hasMovement {
+public class Ungulates extends Animal implements HasColor, HasMovement {
     public int numHorns;
 
     public int getNumHorns() {
@@ -24,11 +24,11 @@ public class Ungulates extends Animal implements hasColor, hasMovement {
         System.out.println("From the genus ungulates. They have horns and hooves.");
     }
 
-    public void Movement() {
+    public void move() {
         System.out.println("They can run, jump and swim.");
     }
 
-    public void Сolor() {
+    public void hasColor() {
         System.out.println("The color is not bright, monotonous.");
     }
 

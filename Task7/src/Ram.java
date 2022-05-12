@@ -11,11 +11,11 @@ public class Ram extends Ungulates {
         super();
     }
 
-    public void Movement() {
+    public void move() {
         System.out.println("They can run, jump, swim and beat horns.");
     }
 
-    public void Сolor() {
+    public void hasColor() {
         System.out.println("The color is not bright, monotonous. Usually white or black.");
     }
 

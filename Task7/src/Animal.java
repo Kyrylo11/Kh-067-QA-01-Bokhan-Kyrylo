@@ -1,4 +1,4 @@
-public abstract class Animal implements hasColor, hasMovement {
+public abstract class Animal implements HasColor, HasMovement {
     private int age;
     private String name;
 

@@ -1,4 +1,4 @@
-public class Cats extends Animal implements hasColor, hasMovement {
+public class Cats extends Animal implements HasColor, HasMovement {
     public int numClaws;
 
     public int getNumClaws() {
@@ -24,11 +24,11 @@ public class Cats extends Animal implements hasColor, hasMovement {
         System.out.println("From the genus cat. They has claws and fangs.");
     }
 
-    public void Movement() {
+    public void move() {
         System.out.println("They can run, jump and climb.");
     }
 
-    public void Сolor() {
+    public void hasColor() {
         System.out.println("The color is not bright, masking.");
     }
 

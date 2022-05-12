@@ -11,11 +11,11 @@ public class Tiger extends Cats {
         super();
     }
 
-    public void Movement() {
+    public void move() {
         System.out.println("They can run, jump, swim and climb.");
     }
 
-    public void Сolor() {
+    public void hasColor() {
         System.out.println("The color is not bright, masking. Usually orange with black strips.");
     }
 
