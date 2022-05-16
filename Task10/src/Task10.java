@@ -2,10 +2,6 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Task10 {
-    static String NotSupportedOperationException() throws Exception{
-        return NotSupportedOperationException.NotSupportedOperationException();
-    }
-
     static double SetDouble(){
         while(true) {
             try {
@@ -28,7 +24,7 @@ public class Task10 {
         n1 = SetDouble();
         while(true) {
             try {
-                operation = NotSupportedOperationException();
+                operation = NotSupportedOperationException.NotSupportedOperationException();
                 break;
             } catch (Exception e) {
                 System.out.println("Unsupported operation!");
