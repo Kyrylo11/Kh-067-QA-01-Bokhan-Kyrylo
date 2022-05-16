@@ -3,18 +3,7 @@ import java.util.Scanner;
 
 public class Task10 {
     static String NotSupportedOperationException() throws Exception{
-        Scanner sc = new Scanner(System.in);
-        String operation;
-        System.out.println("Input the operation(+, -, *, /, %):");
-        operation = sc.nextLine();
-        if((operation.equals("+"))||(operation.equals("-"))||(operation.equals("*"))||(operation.equals("/"))||
-                (operation.equals("%")))
-        {
-            return operation;
-        }
-        else{
-            throw new Exception("Unsupported operation!");
-        }
+        return NotSupportedOperationException.NotSupportedOperationException();
     }
 
     static double SetDouble(){
