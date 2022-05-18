@@ -16,7 +16,17 @@ public class Task10 {
         }
     }
 
+    public static String getOperation(String operation) throws NotSupportedOperationException {
+        if((operation.equals("+"))||(operation.equals("-"))||(operation.equals("*"))||(operation.equals("/"))||
+                (operation.equals("%"))) {
+            return operation;
+        } else {
+            throw new NotSupportedOperationException();
+        }
+    }
+
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         double n1 = 0, n2 = 0, res = 0;
         String operation;
         System.out.println("This is a calculator. Enter integer and fractional numbers. A set of supported " +
@@ -24,9 +34,11 @@ public class Task10 {
         n1 = SetDouble();
         while(true) {
             try {
-                operation = NotSupportedOperationException.NotSupportedOperationException();
+                System.out.println("Input the operation(+, -, *, /, %):");
+                operation = sc.nextLine();
+                getOperation(operation);
                 break;
-            } catch (Exception e) {
+            } catch (NotSupportedOperationException e) {
                 System.out.println("Unsupported operation!");
             }
         }
